@@ -26,7 +26,7 @@ const DownloadScroll = ({ isVisible }) => {
       <BottomSheet
         ref={bottomSheetRef}
         index={-1} // Start with BottomSheet hidden
-        snapPoints={['25%', '100%']}
+        snapPoints={['100%', '100%']}
         onChange={handleSheetChanges}
       >
         <BottomSheetView style={styles.contentContainer}>
